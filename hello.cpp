@@ -29,4 +29,4 @@ The int means it will return a value because main follows *\
 - C++ is case sensative
 - dir lists files in current directory
 - cl.exe compiles the file.cpp which outputs file.exe and file.obj
-- file.exe runs the new executable
+- file.exe runs the new executable *\
