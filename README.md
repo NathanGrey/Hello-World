@@ -1,4 +1,4 @@
-# hello-world
+# Hello-World
 Assignment 1.1: Ready, Set, Hello World!
 Description:
 You will be building your first C++ program using a text editor and cl.exe. It will be your own version of "Hello World," but with a custom message. This will include:
