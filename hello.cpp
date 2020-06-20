@@ -1,32 +1,21 @@
-/* This is a trial of multi line comment
-All of this text should not read as code
-Documenting code is important for big teams */
+/* CodingGorilla Update */
 
 #include <iostream>
 
-/* Denotes the start of a preprocessor command telling it to include the contents of iostream */
+/*
+Edit: Added using namespace std
+Purpose: Allows you not have to add std:: when using anything from the standard library
+Note: It's okay to use this in the source file but when working with header files recommend not using this as there are multiply
+      objects that were recoded in other libraries you might use.
+*/
+using namespace std;
 
-int main()
-/* Defines the entry point of the program
-The int means it will return a value because main follows */
-{
-// Defines a block of code
 
-	std::cout << "Programing in C++ is pretty cool!";
+int main(){
 
-/* Namespace and variable. Means to take the std version of cout. 
+	//take note how std:: is gone because I am using namespace std;
+	cout << "Programing in C++ is pretty cool!";
 
-<< is an operator which tells the program to pass the contents "x" to the output stream which is std::cout. 
-The semi-colon ends the program */
+
 
 }
-// Closes the main block of code
-
-/* Bug Notes
-- Name the file "file.cpp"
-- Grant the proper file permissions in the directory
-- Do not forget semi-colons
-- C++ is case sensative
-- dir lists files in current directory
-- cl.exe compiles the file.cpp which outputs file.exe and file.obj
-- file.exe runs the new executable */
